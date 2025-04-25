@@ -1,0 +1,90 @@
+/* Hover Effect */
+#hoverDiv {
+    width: 200px;
+    height: 50px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  #hoverDiv:hover {
+    background-color: lightcoral;
+  }
+  
+  /* Button Styles */
+  #colorChangeBtn {
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #colorChangeBtn:hover {
+    background-color: mediumseagreen;
+  }
+  
+  /* Slideshow */
+  #slideshow {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #slideshow img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Tabs */
+  #tabs .tab {
+    margin: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #tabs .tab:hover {
+    background-color: #45a049;
+  }
+  
+  #tabs .tab-content {
+    display: none;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  /* Form Inputs */
+  form input {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"] {
+    width: 100%;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Button Click -->
+  <button id="clickBtn">Start Your Workout!</button>
+
+  <!-- Hover Effect -->
+  <div id="hoverDiv">Hover over me for a fitness tip!</div>
+
+  <!-- Keypress Detection -->
+  <input type="text" id="keypressInput" placeholder="Search for exercises...">
+
+  <!-- Secret Action (Double-click or Long Press) -->
+  <button id="secretBtn">Double-click or Long Press for a Surprise Tip!</button>
+
+  <!-- Interactive Elements -->
+  <button id="colorChangeBtn">Change My Color!</button>
+  <div id="slideshow">
+    <img id="image" src="https://images.pexels.com/photos/8155103/pexels-photo-8155103.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fitness Motivation">
+    <button id="nextBtn">Next Workout</button>
+  </div>
+
+  <div id="tabs">
+    <button class="tab" data-content="tab1">Exercise Routines</button>
+    <button class="tab" data-content="tab2">Nutrition Tips</button>
+    <div class="tab-content" id="tab1">Explore different workout routines for strength, flexibility, and cardio!</div>
+    <div class="tab-content" id="tab2">Get expert nutrition tips to fuel your fitness journey and optimize recovery.</div>
+  </div>
+
+  <!-- Form Validation -->
+  <form id="form">
+    <input type="text" id="username" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Email (for fitness updates)" required>
+    <input type="password" id="password" placeholder="Create a Password" required>
+    <button type="submit">Join Fitness Community</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
